@@ -19,6 +19,7 @@ ext {
 }
 
 dependencies {
+    implementation group: 'com.github.eirslett', name: 'frontend-maven-plugin', version: '1.11.0'
    implementation 'com.vaadin:vaadin-spring-boot-starter'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     implementation 'io.quickchart:QuickChart:1.0.0'
