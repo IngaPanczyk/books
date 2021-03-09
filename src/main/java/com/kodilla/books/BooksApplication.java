@@ -1,6 +1,6 @@
 package com.kodilla.books;
 
-import io.quickchart.QuickChart;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

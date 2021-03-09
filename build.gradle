@@ -14,12 +14,12 @@ repositories {
     mavenCentral()
 }
 
-/*ext {
-    set('vaadinVersion', "14.3.7")
-}*/
+ext {
+    set('vaadinVersion', "18.0.7")
+}
 
 dependencies {
-   // implementation 'com.vaadin:vaadin-spring-boot-starter'
+   implementation 'com.vaadin:vaadin-spring-boot-starter'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     implementation 'io.quickchart:QuickChart:1.0.0'
     compile('org.springframework.boot:spring-boot-starter-web')
@@ -28,11 +28,11 @@ dependencies {
     }
 }
 
-/*dependencyManagement {
+dependencyManagement {
     imports {
         mavenBom "com.vaadin:vaadin-bom:${vaadinVersion}"
     }
-}*/
+}
 
 test {
     useJUnitPlatform()
