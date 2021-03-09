@@ -15,7 +15,7 @@ repositories {
 }
 
 ext {
-    set('vaadinVersion', "14.4.7")
+    set('vaadinVersion', "0.14.3.7")
 }
 
 dependencies {
@@ -29,11 +29,6 @@ dependencyManagement {
     imports {
         mavenBom "com.vaadin:vaadin-bom:${vaadinVersion}"
     }
-}
-
-configurations {
-    compile.exclude module: 'spring-boot-starter-tomcat'
-    compile.exclude group: 'org.apache.tomcat'
 }
 
 test {
