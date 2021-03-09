@@ -1,7 +1,7 @@
 package com.kodilla.books;
 
 
-import com.kodilla.books.domain.Book;
+/*import com.kodilla.books.domain.Book;
 import com.kodilla.books.domain.BookType;
 import com.kodilla.books.service.BookService;
 import com.vaadin.flow.component.button.Button;
@@ -10,12 +10,12 @@ import com.vaadin.flow.component.combobox.ComboBox;
 import com.vaadin.flow.component.formlayout.FormLayout;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.textfield.TextField;
-import com.vaadin.flow.data.binder.Binder;
+import com.vaadin.flow.data.binder.Binder;*/
 
-public class BookForm extends FormLayout {
+public class BookForm /*extends FormLayout*/ {
 
 
-    MainView mainView;
+    /*MainView mainView;
 
     private TextField title = new TextField("Title");
     private TextField author = new TextField("Author");
@@ -69,6 +69,6 @@ public class BookForm extends FormLayout {
             setVisible(true);
             title.focus();
         }
-    }
+    }*/
 
 }

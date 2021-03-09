@@ -1,6 +1,6 @@
 package com.kodilla.books;
 
-import com.kodilla.books.domain.Book;
+/*import com.kodilla.books.domain.Book;
 import com.kodilla.books.grafs.Graf;
 import com.kodilla.books.service.BookService;
 import com.vaadin.flow.component.button.Button;
@@ -10,13 +10,13 @@ import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.component.textfield.TextField;
 import com.vaadin.flow.data.value.ValueChangeMode;
-import com.vaadin.flow.router.Route;
+import com.vaadin.flow.router.Route;*/
 
 
-@Route
-public class MainView extends VerticalLayout {
+//@Route
+public class MainView /*extends VerticalLayout*/ {
 
-    Graf graf = new Graf();
+   /* Graf graf = new Graf();
 
     private BookService bookService = BookService.getInstance();
     private Grid grid = new Grid<>(Book.class);
@@ -31,7 +31,7 @@ public class MainView extends VerticalLayout {
     //Nowe pozycje
     private Button addNewBook = new Button("Add new book");
 
-    public MainView(/*Graf drowGraf*/) {
+    public MainView(*//*Graf drowGraf*//*) {
 
         //this.graf = drowGraf;
 
@@ -66,6 +66,6 @@ public class MainView extends VerticalLayout {
 
     private void update() {
         grid.setItems(bookService.findByTitle(filter.getValue()));
-    }
+    }*/
 
 }
